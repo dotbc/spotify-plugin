@@ -1,0 +1,32 @@
+{
+  "name": "spotify",
+  "displayName": "Spotify",
+  "version": "0.0.0",
+  "description": "example spotify plugin for dotBC",
+  "publisher": "Spotify",
+  "main": "index.js",
+  "capabilities": {
+    "search": {
+      "name": "Spotify",
+      "description": "Look up artists on Spotify.",
+      "imageUrl": "images/icon-spotify.svg",
+      "searchImageUrl": "images/icon-spotify-button.svg",
+      "supportedSearchTypes": [
+        "artist",
+        "work"
+      ],
+      "commands": [
+        "search",
+        "getDetails"
+      ]
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cardstack-extension-manager": "git+ssh://git@github.com/mateodelnorte/cardstack-extension-manager.git",
+    "debug": "^2.2.0",
+    "lodash": "^4.15.0",
+    "superagent": "^2.2.0"
+  }
+}
