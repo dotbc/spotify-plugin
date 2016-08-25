@@ -38,7 +38,7 @@ class SpotifyPlugin {
           item.artist = item.artists.length > 0 ? item.artists[0].name : '';
           item.workId = '';
         });
-        return tracks;
+        return cb(null, tracks);
       });
     }
 
