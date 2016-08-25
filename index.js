@@ -1,4 +1,4 @@
-const cdem = require('cardstack-extension-manager');
+const cdem = require('cardstack-plugin-manager');
 const SpotifyPlugin = require('./plugin');
 
 let interval;
@@ -12,5 +12,5 @@ module.exports.activate = function (cb) {
 };
 
 module.exports.deactivate = function () {
-  console.log('extension deactivated');
+  console.log('plugin deactivated');
 }

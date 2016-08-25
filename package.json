@@ -21,10 +21,10 @@
       ]
     }
   },
-  "author": "",
+  "author": "hi@iammattwalters",
   "license": "MIT",
   "dependencies": {
-    "cardstack-extension-manager": "git+ssh://git@github.com/mateodelnorte/cardstack-extension-manager.git",
+    "cardstack-plugin-manager": "git+ssh://git@github.com/mateodelnorte/cardstack-plugin-manager.git",
     "debug": "^2.2.0",
     "lodash": "^4.15.0",
     "superagent": "^2.2.0"
