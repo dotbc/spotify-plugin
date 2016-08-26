@@ -1,4 +1,4 @@
-const cdem = require('cardstack-plugin-manager');
+const cdem = require('dotbc-plugin-manager');
 const Plugin = require('./plugin');
 
 // register resource paths to for expansion from relative to absolute paths
